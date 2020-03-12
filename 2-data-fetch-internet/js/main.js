@@ -1,6 +1,6 @@
 function createPersonEl(title,firstname,lastname,email) {
   let nameEl = document.createElement('li')
-  nameEl.innerHTML = `${title} ${firstname} ${lastname} ${email}`
+  nameEl.innerHTML = `${title}. ${firstname} ${lastname} ${email}`
   return nameEl
 }
 
